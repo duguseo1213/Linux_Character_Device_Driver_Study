@@ -2,4 +2,4 @@
 
 This repository contains step-by-step implementations of
 Linux character device drivers for learning kernel development
-on Raspberry Pi.
+on Raspberry Pi...
