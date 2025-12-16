@@ -1,0 +1,1 @@
+savedcmd_/home/duguseo/02_auto_device/chardev.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/duguseo/02_auto_device/chardev.ko /home/duguseo/02_auto_device/chardev.o /home/duguseo/02_auto_device/chardev.mod.o /home/duguseo/02_auto_device/.module-common.o
