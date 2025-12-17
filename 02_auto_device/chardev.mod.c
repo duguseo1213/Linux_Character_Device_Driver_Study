@@ -29,7 +29,6 @@ __used __section("__versions") = {
 	{ 0x6091b333, "unregister_chrdev_region" },
 	{ 0x8b970f46, "device_destroy" },
 	{ 0x6cbbfc54, "__arch_copy_to_user" },
-	{ 0x7682ba4e, "__copy_overflow" },
 	{ 0x12a4e128, "__arch_copy_from_user" },
 	{ 0xdcb764ad, "memset" },
 	{ 0x474e54d2, "module_layout" },
@@ -38,4 +37,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "65F2BE10B4ADC057105D3F2");
+MODULE_INFO(srcversion, "048763A92D6929388B6B94F");

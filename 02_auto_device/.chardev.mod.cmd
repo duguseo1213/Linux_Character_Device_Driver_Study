@@ -1,1 +1,1 @@
-savedcmd_/home/duguseo/02_auto_device/chardev.mod := printf '%s\n'   chardev.o | awk '!x[$$0]++ { print("/home/duguseo/02_auto_device/"$$0) }' > /home/duguseo/02_auto_device/chardev.mod
+savedcmd_/home/Linux_Character_Device_Driver_Study/02_auto_device/chardev.mod := printf '%s\n'   chardev.o | awk '!x[$$0]++ { print("/home/Linux_Character_Device_Driver_Study/02_auto_device/"$$0) }' > /home/Linux_Character_Device_Driver_Study/02_auto_device/chardev.mod

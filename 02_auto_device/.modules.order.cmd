@@ -1,1 +1,1 @@
-savedcmd_/home/duguseo/02_auto_device/modules.order := {   echo /home/duguseo/02_auto_device/chardev.o; :; } > /home/duguseo/02_auto_device/modules.order
+savedcmd_/home/Linux_Character_Device_Driver_Study/02_auto_device/modules.order := {   echo /home/Linux_Character_Device_Driver_Study/02_auto_device/chardev.o; :; } > /home/Linux_Character_Device_Driver_Study/02_auto_device/modules.order

@@ -1,1 +1,1 @@
-savedcmd_/home/duguseo/02_auto_device/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/duguseo/02_auto_device/Module.symvers -n -T /home/duguseo/02_auto_device/modules.order -i Module.symvers -e 
+savedcmd_/home/Linux_Character_Device_Driver_Study/02_auto_device/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/Linux_Character_Device_Driver_Study/02_auto_device/Module.symvers -n -T /home/Linux_Character_Device_Driver_Study/02_auto_device/modules.order -i Module.symvers -e 
