@@ -61,7 +61,7 @@ static long my_ioctl(struct file *file,
             if (dir & _IOC_WRITE) {
                 copy_from_user(&tmp, (int __user *)arg, size);
                 device_value = tmp;
-            }
+            }        
             break;
     }
 
