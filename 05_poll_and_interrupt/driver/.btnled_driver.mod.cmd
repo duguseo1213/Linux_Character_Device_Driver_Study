@@ -1,0 +1,1 @@
+savedcmd_/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.mod := printf '%s\n'   btnled_driver.o | awk '!x[$$0]++ { print("/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/"$$0) }' > /home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.mod
