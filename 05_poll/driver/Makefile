@@ -1,4 +1,4 @@
-obj-m += btnled_driver.o
+obj-m += btn_poll.o
 
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD  := $(shell pwd)

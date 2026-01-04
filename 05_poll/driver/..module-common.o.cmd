@@ -1,8 +1,10 @@
-savedcmd_/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.o :=  aarch64-linux-gnu-gcc-14 -Wp,-MMD,/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/.btnled_driver.o.d -nostdinc -I/usr/src/linux-headers-6.12.47+rpt-common-rpi/arch/arm64/include -I./arch/arm64/include/generated -I/usr/src/linux-headers-6.12.47+rpt-common-rpi/include -I./include -I/usr/src/linux-headers-6.12.47+rpt-common-rpi/arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I/usr/src/linux-headers-6.12.47+rpt-common-rpi/include/uapi -I./include/generated/uapi -include /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler-version.h -include /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/kconfig.h -include /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=/usr/src/linux-headers-6.12.47+rpt-common-rpi/= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"btnled_driver"' -DKBUILD_MODNAME='"btnled_driver"' -D__KBUILD_MODNAME=kmod_btnled_driver -c -o /home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.o /home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.c  
+savedcmd_/home/Linux_Character_Device_Driver_Study/05_poll/driver/.module-common.o :=  aarch64-linux-gnu-gcc-14 -Wp,-MMD,/home/Linux_Character_Device_Driver_Study/05_poll/driver/..module-common.o.d -nostdinc -I/usr/src/linux-headers-6.12.47+rpt-common-rpi/arch/arm64/include -I./arch/arm64/include/generated -I/usr/src/linux-headers-6.12.47+rpt-common-rpi/include -I./include -I/usr/src/linux-headers-6.12.47+rpt-common-rpi/arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I/usr/src/linux-headers-6.12.47+rpt-common-rpi/include/uapi -I./include/generated/uapi -include /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler-version.h -include /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/kconfig.h -include /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=/usr/src/linux-headers-6.12.47+rpt-common-rpi/= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -DMODULE -DKBUILD_BASENAME='".module_common"' -DKBUILD_MODNAME='".module_common.o"' -D__KBUILD_MODNAME=kmod_.module_common.o -c -o /home/Linux_Character_Device_Driver_Study/05_poll/driver/.module-common.o /usr/src/linux-headers-6.12.47+rpt-common-rpi/scripts/module-common.c
 
-source_/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.o := /home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.c
+source_/home/Linux_Character_Device_Driver_Study/05_poll/driver/.module-common.o := /usr/src/linux-headers-6.12.47+rpt-common-rpi/scripts/module-common.c
 
-deps_/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.o := \
+deps_/home/Linux_Character_Device_Driver_Study/05_poll/driver/.module-common.o := \
+    $(wildcard include/config/UNWINDER_ORC) \
+    $(wildcard include/config/MITIGATION_RETPOLINE) \
   /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/kconfig.h \
@@ -24,7 +26,6 @@ deps_/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnl
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
   /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler_attributes.h \
   /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler-gcc.h \
-    $(wildcard include/config/MITIGATION_RETPOLINE) \
     $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
     $(wildcard include/config/SHADOW_CALL_STACK) \
     $(wildcard include/config/KCOV) \
@@ -967,57 +968,15 @@ deps_/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnl
     $(wildcard include/config/HAVE_MOD_ARCH_SPECIFIC) \
     $(wildcard include/config/MODULES_USE_ELF_REL) \
     $(wildcard include/config/MODULES_USE_ELF_RELA) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/gpio.h \
-    $(wildcard include/config/GPIOLIB) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/gpio/consumer.h \
-    $(wildcard include/config/ACPI) \
-    $(wildcard include/config/GPIO_SYSFS) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/cdev.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/device.h \
-    $(wildcard include/config/GENERIC_MSI_IRQ) \
-    $(wildcard include/config/ENERGY_MODEL) \
-    $(wildcard include/config/PINCTRL) \
-    $(wildcard include/config/ARCH_HAS_DMA_OPS) \
-    $(wildcard include/config/DMA_DECLARE_COHERENT) \
-    $(wildcard include/config/DMA_CMA) \
-    $(wildcard include/config/SWIOTLB) \
-    $(wildcard include/config/SWIOTLB_DYNAMIC) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
-    $(wildcard include/config/DMA_OPS_BYPASS) \
-    $(wildcard include/config/DMA_NEED_SYNC) \
-    $(wildcard include/config/IOMMU_DMA) \
-    $(wildcard include/config/PM_SLEEP) \
-    $(wildcard include/config/OF) \
-    $(wildcard include/config/DEVTMPFS) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/dev_printk.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/energy_model.h \
-    $(wildcard include/config/SCHED_DEBUG) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/sched/cpufreq.h \
-    $(wildcard include/config/CPU_FREQ) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/sched/topology.h \
-    $(wildcard include/config/SCHED_CLUSTER) \
-    $(wildcard include/config/SCHED_MC) \
-    $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/sched/idle.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/sched/sd_flags.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/ioport.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/klist.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/pm.h \
-    $(wildcard include/config/VT_CONSOLE_SLEEP) \
-    $(wildcard include/config/CXL_SUSPEND) \
-    $(wildcard include/config/PM) \
-    $(wildcard include/config/PM_CLK) \
-    $(wildcard include/config/PM_GENERIC_DOMAINS) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/device/bus.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/device/class.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/device/devres.h \
-    $(wildcard include/config/HAS_IOMEM) \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/device/driver.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/arch/arm64/include/asm/device.h \
-  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/pm_wakeup.h \
+  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/build-salt.h \
+    $(wildcard include/config/BUILD_SALT) \
+  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/elfnote.h \
+  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/elfnote-lto.h \
+  /usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/vermagic.h \
+    $(wildcard include/config/PREEMPT_BUILD) \
+  include/generated/utsrelease.h \
+  /usr/src/linux-headers-6.12.47+rpt-common-rpi/arch/arm64/include/asm/vermagic.h \
 
-/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.o: $(deps_/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.o)
+/home/Linux_Character_Device_Driver_Study/05_poll/driver/.module-common.o: $(deps_/home/Linux_Character_Device_Driver_Study/05_poll/driver/.module-common.o)
 
-$(deps_/home/Linux_Character_Device_Driver_Study/05_poll_and_interrupt/driver/btnled_driver.o):
+$(deps_/home/Linux_Character_Device_Driver_Study/05_poll/driver/.module-common.o):
